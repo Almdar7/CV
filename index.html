@@ -3,179 +3,207 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet'
-        type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="prefetch stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
     <link href='/assets/css/styles.css' rel='stylesheet' type='text/css'>
     <link href='https://almdar7.github.io/CV/assets/css/styles.css' rel='stylesheet' type='text/css'>
+    <title>Document</title>
 </head>
 
 <body>
-    <div id="main_container">
-        <!-- HEADER -->
-        <div id="header">
-            <!-- LOGOTYPE/NAME -->
-            <div class="header_logotype_container">
-                <h1 class="logotype_name">Darío <span class="purple">Moresi</span></h1>
-                <h2 class="logotype_occupation">BackEnd Web Developer</h2>
+    <div class="wrapper">
+        <div class="intro">
+            <div class="profile">
+                <div class="photo">
+                    <img src="./assets/img/DarioMoresi.jpeg">
+                </div>
+                <div class="bio">
+                    <h1 class="name">Dario Moresi</h1>
+                    <p class="profession">Back-End Developer</p>
+                </div>
             </div>
-            <!-- MAIN MENU -->
-            <div class="header_menu_container">
-                <ul class="download_print_buttons horizontal_list">
-                    <li><a href="#"><span class="icon entypo-download"></span>Download CV</a></li>
-                    <!-- <li><a href="#"><span class="icon entypo-print"></span>Print CV</a></li> -->
-                </ul>
-                <!-- <div class="clear"></div>
-                <ul class="header_menu horizontal_list">
-                    <li><a class="no_border purple" href="#">Profile</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Work Experience</a></li>
-                    <li><a href="#">Featured Projects</a></li>
-                    <li><a href="#">Awards</a></li>
-                </ul> -->
+            <div class="intro-section about">
+                <h1 class="title">SOBRE MI</h1>
+                <p class="paragraph">
+                    Hola, soy un apasionado de la tecnología, trabajador y de rápido aprendizaje.
+                    Soy un buen colaborador, cómodo en equipos, con habilidades de comunicación efectivas para entender requisitos y desafíos técnicos, y estoy dispuesto a asumir desafíos y aprender de mis errores mientras crezco en el desarrollo de back-end.
+                </p>
+            </div>
+            <div class="intro-section contact">
+                <h1 class="title">CONTACTO</h1>
+                <div class="info-section">
+                    <i class="fas fa-phone"></i>
+                    <span>(+54)3572-587655</span>
+                </div>
+                <div class="info-section">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Córdoba, Argenita</span>
+                </div>
+                <div class="info-section">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>almdar7@hotmail.com</span>
+                </div>
+            </div>
+            <div class="intro-section follow">
+                <h1 class="title">REDES SOCIALES</h1>
+                <div class="info-section link">
+                    <i class="fab fa-github"></i>
+                    <a target="_blank" rel="author" href="https://github.com/Almdar7">
+                        <span>Portafolio</span>
+                    </a>
+                </div>
+                <div class="info-section link">
+                    <i class="fab fa-facebook"></i>
+                    <a target="_blank" rel="author" href="https://www.facebook.com/profile.php?id=100009457063321">
+                        <span>Facebook</span>
+                    </a>
+                </div>
             </div>
         </div>
-        <!-- LEFT COL -->
-        <div id="left_col">
-            <div class="profile_frame">
-                <div class="profile_picture"></div>
+        <div class="detail">
+            <div class="detail-section edu">
+                <div class="detail-title">
+                    <div class="title-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <span>EXPERIENCIA</span>
+                </div>
+                <div class="detail-content">
+                    <div class="timeline-block">
+                        <h1>SQL Server</h1>
+                        <ul>
+                            <li>Amplia experiencia en la normalización de bases de datos.</li>
+                            <li>Competencia intermedia en el lenguaje SQL, con capacidad para diseñar consultas complejas y optimizadas.</li>
+                            <li>Profundo conocimiento en la gestión de bases de datos SQL Server, incluyendo la creación de tablas, vistas y procedimientos almacenados.</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-block">
+                        <h1>API RESTful</h1>
+                        <ul>
+                            <li>Desarrollor de APIs RESTful utilizando Entity Framework y ADO.NET, dentro del entorno .NET.</li>
+                            <li>Habilidad en la documentación de APIs utilizando Swagger para garantizar una comprensión y adopción eficaz por parte de otros desarrolladores.</li>
+                            <li>Experiencia en el manejo de versionado de APIs para asegurar la compatibilidad y la evolución controlada de los servicios.</li>
+                            <li>Amplio conocimiento en el uso de middlewares para el manejo de solicitudes HTTP, garantizando un flujo de datos seguro y eficiente.</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-block">
+                        <h1>Blazor</h1>
+                        <ul>
+                            <li>Competencia avanzada en Blazor, incluyendo la implementación de autenticación mediante el Auth Provider.</li>
+                            <li>Uso experto de las bibliotecas Radzen y MudBlazor para mejorar la estética y la usabilidad de las aplicaciones.</li>
+                            <li>Experiencia en la creación de aplicaciones de back-office con Blazor, proporcionando soluciones eficaces y amigables para la gestión de datos y tareas administrativas.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-section pg-skill">
+                <div class="detail-title">
+                    <div class="title-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <span>HABILIDADES DE PROGRAMACIÓN</span>
+                </div>
+                <div class="detail-content">
+                    <ul class="pg-list">
+                        <li>
+                            <span>C++ </span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>C#</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>SQL Server</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>HTML</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 50%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>CSS</span>
+                            <div class="sb-skeleton">
+                                <div class="skillbar" style="--pgbar-length: 30%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="detail-section tool-skill">
+                <div class="detail-title">
+                    <div class="title-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <span>HERRAMIENTAS DE DESARROLLO</span>
+                </div>
+                <div class="detail-content">
+                    <ul class="tool-list">
+                        <li>
+                            <svg viewbox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45"></circle>
+                                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.80"></circle>
+                            </svg>
+                            <span class="tl-name">V. Studio</span>
+                            <span class="tl-exp">80%</span>
+                        </li>
+                        <li>
+                            <svg viewbox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45"></circle>
+                                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.80"></circle>
+                            </svg>
+                            <span class="tl-name">Sql Server</span>
+                            <span class="tl-exp">80%</span>
+                        </li>
+                        <li>
+                            <svg viewbox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45"></circle>
+                                <circle class="cbar" cx="50" cy="50" r="45" style="--percent: 0.7"></circle>
+                            </svg>
+                            <span class="tl-name">Git</span>
+                            <span class="tl-exp">70%</span>
+                        </li>
+                    </ul>
+                </div>
 
             </div>
-            <div class="hello_content">
-                <h2>Hola!</h2>
-                <p>Soy un apasionado de la tecnología, trabajador y de rápido aprendizaje.</p>
-            </div>
-            <div class="contact_details_content">
-                <h2>Contacto</h2>
-                <p class="purple">Teléfono:</p>
-                <p>+54 3572 557658</p>
-                <p class="purple">Email:</p>
-                <p>almdar7@hotmail.com</p>
-                <p class="purple">Direccion:</p>
-                <p>Salta, 1436</p>
-                <p>Córdoba, Argentina</p>
-                <p>5963</p>
-            </div>
-            <a href="mailto:almdar7@hotmail.com" class="send_message_button">
-                <span class="cut1"></span>
-                <span class="cut2"></span>
-                <span class="content">Enviame un mensaje <span class="fontawesome-double-angle-right"></span></span>
-            </a>
-            <div class="get_social_content">
-                <h2>Redes Sociales</h2>
-                <ul class="social_icons horizontal_list">
-                    <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100009457063321" target="_blank"><span
-                                class="entypo-facebook-circled"></span><span class="invisible">Facebook</span></a></li>
-                    <li><a class="github" href="https://github.com/Almdar7" target="_blank"><span
-                                class="entypo-github-circled"></span><span class="invisible">Twitter</span></a></li>
-                    <li><a class="linkedin" href="https://www.linkedin.com/in/dario-martin-moresi-rivalta-5b3690273/" target="_blank"><span
-                                class="entypo-linkedin-circled"></span><span class="invisible">LinkedIn</span></a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- PROFILE CONTENT -->
-        <div id="content_container">
-            <div class="block">
-                <h1>Perfil</h1>
-                <!-- <blockquote class="profile_quote">
-                    <p>"There is no end to education. It is not that you read a book, pass an examination, and finish
-                        with education. The whole of life, from the moment you are born to the moment you die, is a
-                        process of learning."</p>
-                    <p>Jiddu Krishnamurti.</p>
-                    <span class="entypo-quote"></span>
-                </blockquote> -->
-            </div>
-            <div class="block">
-                <h2>Sobre mi ...</h2>
-                <p>Soy un apasionado desarrollador con un enfoque en el desarrollo de back-end utilizando .NET Core. 
-                    Aunque estoy en las primeras etapas de mi carrera, estoy ansioso por aprender y crecer en la programación. 
-                    Mi formación académica me ha proporcionado conocimientos en lenguajes como C# y conceptos de desarrollo orientado a objetos. 
-                    He trabajado en proyectos prácticos con .NET Core, lo que me ha permitido desarrollar habilidades en diseño e implementación de soluciones de software. 
-                    Mi objetivo principal es expandir mi experiencia en aplicaciones web y servicios RESTful usando .NET Core, manteniéndome abierto a nuevas tecnologías y mejorando mis habilidades técnicas. 
-                    Soy un buen colaborador, cómodo en equipos, con habilidades de comunicación efectivas para entender requisitos y desafíos técnicos, y estoy dispuesto a asumir desafíos y aprender de mis errores mientras crezco en el desarrollo de back-end. 
-                    Estoy emocionado por demostrar mi valía en proyectos reales y ser parte de un equipo de desarrollo</p>
-            </div>
-            <!-- <div class="horizontal_line">
-                <div class="line_left"></div>
-                <div class="left_circle"></div>
-                <div class="central_circle"></div>
-                <div class="right_circle"></div>
-                <div class="line_right"></div>
-            </div>
-            <div class="block">
-                <h2>Philosophy</h2>
-                <p>I belive in ethic and moral not in imposed rules that you "have to" do or follow.</p>
-                <div class="philosophy_content">
-                    <p>I believe life is made from different shades of grey, not from black and white. Furthermore, as a
-                        human being with rationality, I think it is our duty to take care of the world and treat others
-                        as one would like others to treat oneself. This way of perceiving reality affects my beliefs and
-                        my way of behaving. Summarizing on several points:</p>
-                    <ul>
-                        <li>Pragmatic</li>
-                        <li>Honest</li>
-                        <li>Respectful</li>
-                        <li>Open-minded</li>
-                        <li>Coherent</li>
-                    </ul>
-                    <div class="clear"></div>
+            <div class="detail-section interests">
+                <div class="detail-title">
+                    <div class="title-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <span>Intereses</span>
                 </div>
-            </div> -->
-            <div class="horizontal_line">
-                <div class="line_left"></div>
-                <div class="left_circle"></div>
-                <div class="central_circle"></div>
-                <div class="right_circle"></div>
-                <div class="line_right"></div>
+                <div class="detail-content">
+                    <div class="outer-frame">
+                        <ul class="favor-list">
+                            <li>
+                                <i class="fas fa-gamepad"></i>
+                                <span>Juegos</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-paw"></i>
+                                <span>Animales</span>
+                            </li>
+                            <li>
+                                <i class="far fa-headphones-alt"></i>
+                                <span>Música</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="last block">
-                <h2>Experiencia</h2>
-                <!-- <p>I'm passionate about technology and human behavior, both determine almost all my interests and
-                    hobbies:</p> -->
-                <ul>
-                    <li>Desarrollador de software en GoodApps</li>
-                </ul>
-            </div>
-            <div class="horizontal_line">
-                <div class="line_left"></div>
-                <div class="left_circle"></div>
-                <div class="central_circle"></div>
-                <div class="right_circle"></div>
-                <div class="line_right"></div>
-            </div>
-            <div class="last block">
-                <h2>Educación</h2>
-                <!-- <p>I'm passionate about technology and human behavior, both determine almost all my interests and
-                    hobbies:</p> -->
-                <ul>
-                    <li>Instituto Superior Villa Del Rosario</li>
-                </ul>
-            </div>
-            <div class="horizontal_line">
-                <div class="line_left"></div>
-                <div class="left_circle"></div>
-                <div class="central_circle"></div>
-                <div class="right_circle"></div>
-                <div class="line_right"></div>
-            </div>
-            <div class="last block">
-                <h2>Conocimientos/Aptitudes</h2>
-                <!-- <p>I'm passionate about technology and human behavior, both determine almost all my interests and
-                    hobbies:</p> -->
-                <ul>
-                    <li>Scrum</li>
-                    <li>.NET Core</li>
-                    <li>Microsoft SQL Server</li>
-                </ul>
-            </div>
-        </div>
-        <div class="clear"></div>
-        <!-- FOOTER -->
-        <div id="footer">
-            <p class="footer_name">Dario Martin Moresi Rivalta CV 2023</p>
         </div>
     </div>
 </body>
-
 </html>
